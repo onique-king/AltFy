@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai",
+  "provider": {
+    "cheat-ai": {
+      "npm": "@ai-sdk/anthropic",
+      "name": "Cheat-AI Claude",
+      "options": {
+        "baseURL": "https://api.cheat-ai.shop/v1",
+        "apiKey": "sk-ant-8BQBDxq5dpMmSvchU3lF0XO89VAxMqBuyOFVbbJ6E9P"
+      },
+      "models": {
+        "claude-opus-5.5": {
+          "name": "Claude Opus 5.5"
+        }
+      }
+    }
+  },
+  "model": "cheat-ai/claude-opus-5.5"
+}
